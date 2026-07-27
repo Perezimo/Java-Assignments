@@ -13,9 +13,9 @@ public static void main(String [] agrs){
 
 }
 
-public static boolean divisibleBy3(int number){
-
-    if ( number %3 == 0 ) {
+public static boolean divisibleBy(int number){
+for (int count = 0; count<=number; count ++){
+    if ( number %count== 0 ) {
 
       
           return true;
@@ -26,4 +26,5 @@ public static boolean divisibleBy3(int number){
             return false;
         } 
      }
+  }
 }
